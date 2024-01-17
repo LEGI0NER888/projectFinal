@@ -1,0 +1,15 @@
+.artist-best-tracks{
+	display: flex;
+	padding:10px;
+	gap:5px;
+}
+
+.track-block{
+	display: flex;
+	flex-direction: column;
+	border-radius: 2px;
+}
+
+.artist-photos img{
+	height:50vh;
+}
