@@ -1,0 +1,31 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); 
+   
+    gap: 2vw; 
+	width: 90vw;
+	margin:3vh auto;
+	min-height: calc(100vh - 300px);
+}
+
+.artist-block{
+	
+	border: 2px solid rgb(224, 224, 224);
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	white-space: nowrap;
+	background-color: rgba(17, 2, 16, 0.952);
+	transition: 0.5s transform ease-out;
+}
+
+.artist-block:hover{
+	transform: scale(1.1);
+	
+}
+.artist-block__cover{
+	margin-top:10px;
+	width: 100%;
+	border-radius: 2vw;
+}
+
